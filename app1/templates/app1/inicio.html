@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio - App1</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 40px; text-align: center; }
+        h1 { color: #2c3e50; }
+        p { color: #555; }
+        a { display: inline-block; margin: 10px; padding: 10px 20px; background: #2980b9; color: white; text-decoration: none; border-radius: 5px; }
+        a:hover { background: #1f6690; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a App1</h1>
+    <p>Esta es la vista de inicio.</p>
+    <a href="{% url 'acerca' %}">Ir a Acerca de</a>
+    <a href="{% url 'home' %}">Ir a App2</a>
+</body>
+</html>
